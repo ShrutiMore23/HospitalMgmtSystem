@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Hospital</title> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+          crossorigin="anonymous">
+
+          <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    
+    <body style="background-color: #D4E7C5;">
+    <div style="height:900px; width:100%; display:flex; flex-direction:row;">
+
+        <div class="container" style="background-color: #D4E7C5; width: 1100px; padding:70px;">
+            <form action="added.php" method="post">
+            
+            <h3>Fill Patient's Details Below :</h3>
+
+            <div class="form-group" style=" width:730px; height:400px; border-radius:15%">
+            </br></br>
+
+            <form>
+            <div style="position:absolute; width:70px; ">
+                <h4>&nbsp;&nbsp;Name :</h4>
+            </div>
+            </br></br>
+            <input type="text" name="f_name" class="form-control"   placeholder="Enter First Name Here">
+            </br>
+            <input type="text" name="l_name" class="form-control"   placeholder="Enter Last Name Here">
+            </br>
+            
+            <div style="position:absolute; width:130px; ">
+            <h4>Contact details :</h4>
+            </div>
+            </br></br>
+            <input type="text" name="cont" class="form-control"   placeholder="Enter Mobile Number Here">
+            </br>
+            <input type="text" name="addr" class="form-control"   placeholder="Enter Address Here">
+            </br>
+
+            <div style="position:absolute; width:120px; ">
+            <h4>Date Of Birth :</h4>
+            </div>
+            </br></br>
+            <input type="date" name="dob" class="form-control"   >
+            </br>
+
+            <div style="position:absolute; width:120px; ">
+            <h4>Blood Group :</h4>
+            </div>
+            </br></br>
+            <input type="text" name="bg" class="form-control"   placeholder="Enter Blood Group Here" >
+            </br>
+            
+            <div style="position:absolute; width:130px; ">
+            <h4>About Disease :</h4>
+            </div>
+            </br></br>
+            <input type="text" name="disease" class="form-control"   placeholder="Enter Disease Name Here" >
+            </br>
+
+            <div style="position:absolute; width:100px; ">
+            <h4>Admit Date :</h4>
+            </div>
+            </br></br>
+            <input type="date" name="ad" class="form-control"   >
+            </br>
+
+            <div style="position:absolute; width:135px; ">
+            <h4>Room Number</h4>
+            </div>
+            </br></br>
+            <input type="text" name="room" class="form-control" placeholder="Enter Room Number Here">
+            </br>
+            
+            </br>
+            <button type="submit" class="btn btn-success">Submit</button>
+            
+            </form>
+
+            </div>
+            </form>
+        </div>
+
+        <div>
+
+        <div style="background-color: #99BC85; width:480px; height:100%; padding: 30px; padding-top:30px; border-radius:15%;">
+    <h3 >Hospital Shanti &nbsp; <i class="fa-solid fa-house-medical" style="font-size: 1.7em;"></i></h3>
+<hr>
+       <div>
+        <i class="fa-solid fa-user-doctor" style="font-size:xx-large;"></i>
+           <h4> Dr. Alex Christopher</h4>
+           <!-- <h4> Dr. Nicole Christopher</h4> -->
+        </div>
+</br>
+        <div>
+        <i class="fa-solid fa-phone" style="font-size:xx-large;"></i>
+           <h4>9898989898</h4>
+           <!-- <h4>4545454545</h4> -->
+        </div>
+</br>
+        <div>
+            <i class="fa-solid fa-hand-holding-medical" style="font-size:xx-large;"></i>
+            <h4> Helpline Number : 1010101010</h4>
+           <!-- <h4>4545454545</h4> -->
+        </div>
+</br>
+        <div>
+        <i class="fa-solid fa-truck-medical" style="font-size:xx-large;"></i>
+            <h4>Ambulance Number : 101</h4>
+           <!-- <h4>4545454545</h4> -->
+        </div>
+</br></br></br>
+        <div style="padding-left: 15px;">
+            <h4 >Connect With Us :</h4>
+
+            <h4><i class="fa-brands fa-square-instagram" style="font-size:xx-large;"></i>&nbsp;&nbsp;Instagram</h4>
+            <h4><i class="fa-brands fa-twitter" style="font-size:xx-large;"></i>&nbsp;&nbsp;Twitter</h4>
+            <h4><i class="fa-brands fa-facebook" style="font-size:xx-large;"></i>&nbsp;&nbsp;Facebook</h4>
+            <h4><i class="fa-brands fa-telegram" style="font-size:xx-large;"></i>&nbsp;&nbsp;Telegram</h4>
+            <!-- <i class="fa-brands fa-twitter"  style="font-size:xx-large;"></i>
+            &nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-facebook"  style="font-size:xx-large;"></i>
+            &nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-telegram"  style="font-size:xx-large;"></i> -->
+        </div>
+    </div>
+
+        </div>
+
+
+    </div>
+
+
+        
+        </center>
+
+    </body>
+
+</html>
